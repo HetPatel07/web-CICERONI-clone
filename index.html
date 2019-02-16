@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title> Title </title>
+</head>
+
+<body class="h-100">
+    <div class="container-fluid home h-100">
+        <div class="container">
+            <div class="row h-100 ">
+                <div class="col-lg-12 text-center h-100">
+                    <header class="justify-content-center align-items-center h-100 d-flex">
+                        <nav class="">
+                            <div class="home-heading">
+                                <h1>CICERONI</h1>
+                            </div>
+                            <ul class="">
+                                <li><a href="">HOME</a></li>
+                                <li><a href="">EXHIBITIONS</a></li>
+                                <li><a href="">STORES</a></li>
+                                <li><a href="">ARTICLES</a></li>
+                                <li><a href="">DEALS</a></li>
+                                <li><a href="">LOGIN</a></li>
+                            </ul>
+                        </nav>
+                    </header>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item active h-100">
+                        <img src="images/Asset%201@4x-100.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item h-100">
+                        <img src="images/Asset%201@4x-100.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item h-100">
+                        <img src="images/Asset%201@4x-100.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--    search part-->
+    <div class="container-fluid">
+        <div class="container py-5">
+            <div class="row">
+                <div class="input-group mb-3 search">
+                    <div class="input-group-prepend search">
+                        <button class="btn btn-outline-secondary dropdown-toggle rounded-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AHMEDABAD</button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">1</a>
+                            <a class="dropdown-item" href="#">2</a>
+                            <a class="dropdown-item" href="#">3</a>
+                            <div role="separator" class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">4</a>
+                        </div>
+                    </div>
+                    <input type="text" placeholder="Search Exhibition,Stores and Deals" class="form-control" aria-label="Text input with dropdown button">
+                    <button class="search-icon">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    exhibition part-->
+    <div class="container-fluid h-100 exhibition position-relative">
+        <div class="row text-center justify-content-center exhibition-row">
+            <div class="col-lg-12">
+                <h2>WHICH EXIBITION DO YOU WANT TO GO ?</h2>
+            </div>
+            <div class="col-lg-6 py-4">
+                <ul class="pl-0">
+                    <li><a href="" class="active-link">All Events</a></li>
+                    <li><a href="">Today</a></li>
+                    <li><a href="">Tomorrow</a></li>
+                    <li><a href="">This Weekend</a></li>
+                    <li><a href=""><span class="px-2"><i class="fas fa-calendar-week"></i></span>Select Date</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="slider" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-12">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top w-100" src="images/Asset 2@4x-100.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">FASHION AND WORKS AHMEDABAD</h5>
+                                                <p class="card-text">Hosted by Black Taxi Creative Concepts, Fashion And Work arw coming back</p>
+                                                <div class="date-time">
+                                                    <div class="date">
+                                                        <p>JAN 5-9,2019</p>
+                                                        <span><img src="images/5_star_rating_png_8434.png" class="w-100 h-100" alt=""></span>
+                                                    </div>
+                                                    <div class="time">
+                                                        <p>11:00 AM to 7:00 PM</p>
+                                                    </div>
+                                                </div>
+                                                <div class="user-part">
+                                                    <div class="user-image">
+                                                        <img src="images/user.png" alt="">
+                                                    </div>
+                                                    <div class="user-content">
+                                                        <h6>Payal Kalwani</h6>
+                                                        <p>Hosted by Black Taxi Creative Concepts, Fashion And Work arw coming back</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card 2-->
+                                    <div class="col-lg-4 col-sm-12">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top w-100" src="images/Asset 3@4x-100.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">FASHION AND WORKS AHMEDABAD</h5>
+                                                <p class="card-text">Hosted by Black Taxi Creative Concepts, Fashion And Work arw coming back</p>
+                                                <div class="date-time">
+                                                    <div class="date">
+                                                        <p>JAN 5-9,2019</p>
+                                                        <span><img src="images/5_star_rating_png_8434.png" class="w-100 h-100" alt=""></span>
+                                                    </div>
+                                                    <div class="time">
+                                                        <p>11:00 AM to 7:00 PM</p>
+                                                    </div>
+                                                </div>
+                                                <div class="user-part">
+                                                    <div class="user-image">
+                                                        <img src="images/user.png" alt="">
+                                                    </div>
+                                                    <div class="user-content">
+                                                        <h6>Payal Kalwani</h6>
+                                                        <p>Hosted by Black Taxi Creative Concepts, Fashion And Work arw coming back</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-sm-12">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top w-100" src="images/Asset 4@4x-100.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">FASHION AND WORKS AHMEDABAD</h5>
+                                                <p class="card-text">Hosted by Black Taxi Creative Concepts, Fashion And Work arw coming back</p>
+                                                <div class="date-time">
+                                                    <div class="date">
+                                                        <p>JAN 5-9,2019</p>
+                                                        <span><img src="images/5_star_rating_png_8434.png" class="w-100 h-100" alt=""></span>
+                                                    </div>
+                                                    <div class="time">
+                                                        <p>11:00 AM to 7:00 PM</p>
+                                                    </div>
+                                                </div>
+                                                <div class="user-part">
+                                                    <div class="user-image">
+                                                        <img src="images/user.png" alt="">
+                                                    </div>
+                                                    <div class="user-content">
+                                                        <h6>Payal Kalwani</h6>
+                                                        <p>Hosted by Black Taxi Creative Concepts, Fashion And Work arw coming back</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!--card slider 2-->
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-12">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top w-100" src="images/Asset 2@4x-100.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">FASHION AND WORKS AHMEDABAD</h5>
+                                                <p class="card-text">Hosted by Black Taxi Creative Concepts, Fashion And Work arw coming back</p>
+                                                <div class="date-time">
+                                                    <div class="date">
+                                                        <p>JAN 5-9,2019</p>
+                                                        <span><img src="images/5_star_rating_png_8434.png" class="w-100 h-100" alt=""></span>
+                                                    </div>
+                                                    <div class="time">
+                                                        <p>11:00 AM to 7:00 PM</p>
+                                                    </div>
+                                                </div>
+                                                <div class="user-part">
+                                                    <div class="user-image">
+                                                        <img src="images/user.png" alt="">
+                                                    </div>
+                                                    <div class="user-content">
+                                                        <h6>Payal Kalwani</h6>
+                                                        <p>Hosted by Black Taxi Creative Concepts, Fashion And Work arw coming back</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card 2-->
+                                    <div class="col-lg-4 col-sm-12">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top w-100" src="images/Asset 3@4x-100.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">FASHION AND WORKS AHMEDABAD</h5>
+                                                <p class="card-text">Hosted by Black Taxi Creative Concepts, Fashion And Work arw coming back</p>
+                                                <div class="date-time">
+                                                    <div class="date">
+                                                        <p>JAN 5-9,2019</p>
+                                                        <span><img src="images/5_star_rating_png_8434.png" class="w-100 h-100" alt=""></span>
+                                                    </div>
+                                                    <div class="time">
+                                                        <p>11:00 AM to 7:00 PM</p>
+                                                    </div>
+                                                </div>
+                                                <div class="user-part">
+                                                    <div class="user-image">
+                                                        <img src="images/user.png" alt="">
+                                                    </div>
+                                                    <div class="user-content">
+                                                        <h6>Payal Kalwani</h6>
+                                                        <p>Hosted by Black Taxi Creative Concepts, Fashion And Work arw coming back</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-sm-12">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top w-100" src="images/Asset 4@4x-100.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">FASHION AND WORKS AHMEDABAD</h5>
+                                                <p class="card-text">Hosted by Black Taxi Creative Concepts, Fashion And Work arw coming back</p>
+                                                <div class="date-time">
+                                                    <div class="date">
+                                                        <p>JAN 5-9,2019</p>
+                                                        <span><img src="images/5_star_rating_png_8434.png" class="w-100 h-100" alt=""></span>
+                                                    </div>
+                                                    <div class="time">
+                                                        <p>11:00 AM to 7:00 PM</p>
+                                                    </div>
+                                                </div>
+                                                <div class="user-part">
+                                                    <div class="user-image">
+                                                        <img src="images/user.png" alt="">
+                                                    </div>
+                                                    <div class="user-content">
+                                                        <h6>Payal Kalwani</h6>
+                                                        <p>Hosted by Black Taxi Creative Concepts, Fashion And Work arw coming back</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#slider" class="carousel-control-prev arrow" data-slide="prev">
+            <i class="fas fa-angle-left"></i>
+        </a>
+        <a href="#slider" class="carousel-control-next arrow" data-slide="next">
+            <i class="fas fa-angle-right"></i>
+        </a>
+    </div>
+
+    <!--    stores part-->
+
+    <div class="container-fluid h-100 exhibition position-relative">
+        <div class="row text-center justify-content-center exhibition-row">
+            <div class="col-lg-12">
+                <h2>EXPLORE STORES IN YOUR CITY</h2>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="store-slider" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-12">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top w-100" src="images/Asset 5@4x.png" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">WESTSIDE</h5>
+                                                <div class="date-time">
+                                                    <div class="date">
+                                                        <p>1 - 2 MAR, 2019</p>
+                                                        <span><img src="images/5_star_rating_png_8434.png" class="w-100 h-100" alt=""></span>
+                                                    </div>
+                                                    <div class="time">
+                                                        <p class="mb-1">11:00 AM to 7:00 PM</p>
+                                                    </div>
+                                                    <div class="venue">
+                                                        <p>ELLISBRIDGE, AHMEDABAD</p>
+                                                    </div>
+                                                </div>
+                                                <div class="user-part">
+                                                    <div class="user-image">
+                                                        <img src="images/user.png" alt="">
+                                                    </div>
+                                                    <div class="user-content">
+                                                        <h6>Payal Kalwani</h6>
+                                                        <p>Hosted by Black Taxi Creative Concepts, Fashion And Work arw coming back</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card 2-->
+                                    <div class="col-lg-4 col-sm-12">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top w-100" src="images/Asset 6@4x.png" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">LAAJAWAB JAYPURI</h5>
+                                                <div class="date-time">
+                                                    <div class="date">
+                                                        <p>1 - 2 MAR, 2019</p>
+                                                        <span><img src="images/5_star_rating_png_8434.png" class="w-100 h-100" alt=""></span>
+                                                    </div>
+                                                    <div class="time">
+                                                        <p class="mb-1">11:00 AM to 7:00 PM</p>
+                                                    </div>
+                                                    <div class="venue">
+                                                        <p>SATELLITE AREA, AHMEDABAD</p>
+                                                    </div>
+                                                </div>
+                                                <div class="user-part">
+                                                    <div class="user-image">
+                                                        <img src="images/user.png" alt="">
+                                                    </div>
+                                                    <div class="user-content">
+                                                        <h6>Payal Kalwani</h6>
+                                                        <p>Hosted by Black Taxi Creative Concepts, Fashion And Work arw coming back</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-sm-12">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top w-100" src="images/Asset 7@4x.png" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">LIFE STYLE STORE</h5>
+                                                <div class="date-time">
+                                                    <div class="date">
+                                                        <p>1 - 2 MAR, 2019</p>
+                                                        <span><img src="images/5_star_rating_png_8434.png" class="w-100 h-100" alt=""></span>
+                                                    </div>
+                                                    <div class="time">
+                                                        <p class="mb-1">11:00 AM to 7:00 PM</p>
+                                                    </div>
+                                                    <div class="venue">
+                                                        <p>VASTRAPUR, AHMEDABAD</p>
+                                                    </div>
+                                                </div>
+                                                <div class="user-part">
+                                                    <div class="user-image">
+                                                        <img src="images/user.png" alt="">
+                                                    </div>
+                                                    <div class="user-content">
+                                                        <h6>Payal Kalwani</h6>
+                                                        <p>Hosted by Black Taxi Creative Concepts, Fashion And Work arw coming back</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!--card slider 2-->
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-12">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top w-100" src="images/Asset 5@4x.png" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">WESTSIDE</h5>
+                                                <div class="date-time">
+                                                    <div class="date">
+                                                        <p>1 - 2 MAR, 2019</p>
+                                                        <span><img src="images/5_star_rating_png_8434.png" class="w-100 h-100" alt=""></span>
+                                                    </div>
+                                                    <div class="time">
+                                                        <p class="mb-1">11:00 AM to 7:00 PM</p>
+                                                    </div>
+                                                    <div class="venue">
+                                                        <p>ELLISBRIDGE, AHMEDABAD</p>
+                                                    </div>
+                                                </div>
+                                                <div class="user-part">
+                                                    <div class="user-image">
+                                                        <img src="images/user.png" alt="">
+                                                    </div>
+                                                    <div class="user-content">
+                                                        <h6>Payal Kalwani</h6>
+                                                        <p>Hosted by Black Taxi Creative Concepts, Fashion And Work arw coming back</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card 2-->
+                                    <div class="col-lg-4 col-sm-12">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top w-100" src="images/Asset 6@4x.png" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">LAAJAWAB JAYPURI</h5>
+                                                <div class="date-time">
+                                                    <div class="date">
+                                                        <p>1 - 2 MAR, 2019</p>
+                                                        <span><img src="images/5_star_rating_png_8434.png" class="w-100 h-100" alt=""></span>
+                                                    </div>
+                                                    <div class="time">
+                                                        <p class="mb-1">11:00 AM to 7:00 PM</p>
+                                                    </div>
+                                                    <div class="venue">
+                                                        <p>SATELLITE AREA, AHMEDABAD</p>
+                                                    </div>
+                                                </div>
+                                                <div class="user-part">
+                                                    <div class="user-image">
+                                                        <img src="images/user.png" alt="">
+                                                    </div>
+                                                    <div class="user-content">
+                                                        <h6>Payal Kalwani</h6>
+                                                        <p>Hosted by Black Taxi Creative Concepts, Fashion And Work arw coming back</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-sm-12">
+                                        <div class="card" style="width: 100%;">
+                                            <img class="card-img-top w-100" src="images/Asset 7@4x.png" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">LIFE STYLE STORE</h5>
+                                                <div class="date-time">
+                                                    <div class="date">
+                                                        <p>1 - 2 MAR, 2019</p>
+                                                        <span><img src="images/5_star_rating_png_8434.png" class="w-100 h-100" alt=""></span>
+                                                    </div>
+                                                    <div class="time">
+                                                        <p class="mb-1">11:00 AM to 7:00 PM</p>
+                                                    </div>
+                                                    <div class="venue">
+                                                        <p>VASTRAPUR, AHMEDABAD</p>
+                                                    </div>
+                                                </div>
+                                                <div class="user-part">
+                                                    <div class="user-image">
+                                                        <img src="images/user.png" alt="">
+                                                    </div>
+                                                    <div class="user-content">
+                                                        <h6>Payal Kalwani</h6>
+                                                        <p>Hosted by Black Taxi Creative Concepts, Fashion And Work arw coming back</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#store-slider" class="carousel-control-prev arrow" data-slide="prev">
+            <i class="fas fa-angle-left"></i>
+        </a>
+        <a href="#store-slider" class="carousel-control-next arrow" data-slide="next">
+            <i class="fas fa-angle-right"></i>
+        </a>
+    </div>
+
+
+
+</body>
+</html>
