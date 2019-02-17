@@ -2,12 +2,10 @@
     --firstcolor: #0F8E93;
 }
 
-body {
-    
-}
+body {}
 
 * {
-  font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .home {}
@@ -85,10 +83,18 @@ body {
 .search .search-icon {
     border: 1px solid #ced4da;
     color: #495057;
+    transition: .3s all;
     border-left: none;
     padding: inherit 15px;
     background-color: #e6e6e6;
 }
+
+.search .search-icon:hover {
+    background-color: var(--firstcolor);
+    transition: .3s all;
+    color: #fff;
+}
+
 
 /*exhibition part*/
 
@@ -193,3 +199,213 @@ body {
     color: #333 !important;
     font-size: 30px;
 }
+
+.view-store-button {
+    position: relative;
+}
+
+.view-store-button a {
+    position: absolute;
+    right: 0;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 10px 20px;
+    transition: .3s all;
+    background-color: var(--firstcolor);
+    color: #fff;
+}
+
+.view-store-button a:hover {
+    text-decoration: none;
+    transition: .3s all;
+}
+
+.view-store-button a:hover .fas {
+    left: 10px;
+    transition: .3s all;
+}
+
+.view-store-button a .fas {
+    font-size: 18px;
+    position: relative;
+    left: 0;
+    transition: .3s all;
+}
+
+/*search bar part 2*/
+
+.search2 h2 {
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    font-size: 24px;
+}
+
+.search2 input {
+    border: none;
+    transition: .3s all;
+    color: #495057;
+    background-color: #e6e6e6;
+    border: 1px solid #e6e6e6;
+    border-right: 0 !important;
+    display: inline-block;
+    padding: 10px 15px;
+    flex: 1 1 auto;
+}
+
+.search2 input:focus {
+    transition: .3s all;
+    border: 1px solid var(--firstcolor);
+    border-right: 0 !important;
+    outline: none;
+}
+
+.search2 input:focus + button {
+    border: 1px solid var(--firstcolor);
+    border-left: 0 !important;
+    transition: .3s all;
+}
+
+.search2 input::placeholder {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.search2 button {
+    padding: 0 20px;
+    border: none;
+    border: 1px solid #e6e6e6;
+    border-left: 0 !important;
+    background-color: #e6e6e6;
+    color: #495057;
+}
+
+.search2 button:hover {
+    background-color: var(--firstcolor);
+    transition: .3s all;
+    color: #fff;
+}
+
+/*most whishlisted stores 2019*/
+
+.wishlisted-stores {
+    height: 85%;
+    background-color: red;
+    background-image: url(../images/Asset%208@4x-100.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.wishlisted-stores .container {
+    position: relative;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.wishlisted-stores h3 {
+    margin: 0 0 30px 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.wishlisted-stores a {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: .3s all;
+    display: inline-block;
+}
+
+.wishlisted-stores a:hover {
+    background-color: var(--firstcolor);
+    text-decoration: none;
+    transition: .3s all;
+}
+
+.wishlisted-stores .wish-content {
+    position: absolute;
+    bottom: 0;
+}
+
+
+/*dummy part*/
+.dummy h5{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.dummy .container{
+    padding: 50px 0;
+}
+.dummy p{
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+}
+
+/*trending*/
+.trending h2{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+    color: var(--firstcolor);
+}
+.trending-upper{
+    position: relative;
+    text-align: center !important;
+}
+
+.trending-upper p{
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    color: #fff;
+}
+
+.trending-down{
+    padding: 10px 0;
+    font-size: 18px;
+    word-break: break-all;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
