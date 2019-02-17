@@ -201,12 +201,14 @@ body {}
 }
 
 .view-store-button {
-    position: relative;
+    overflow: auto;
+    /* position: relative !important; */
 }
 
 .view-store-button a {
-    position: absolute;
-    right: 0;
+    /* position: absolute; */
+    /* right: 0; */
+    float: right;
     letter-spacing: 2px;
     display: inline-block;
     padding: 10px 20px;
@@ -226,7 +228,6 @@ body {}
 }
 
 .view-store-button a .fas {
-    font-size: 18px;
     position: relative;
     left: 0;
     transition: .3s all;
