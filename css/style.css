@@ -273,6 +273,7 @@ body {}
 }
 
 .search2 button {
+    transition: .3s all;
     padding: 0 20px;
     border: none;
     border: 1px solid #e6e6e6;
@@ -333,21 +334,23 @@ body {}
 
 
 /*dummy part*/
-.dummy h5{
+.dummy h5 {
     font-size: 18px;
     font-weight: bolder;
 }
-.dummy .container{
+
+.dummy .container {
     padding: 50px 0;
 }
-.dummy p{
+
+.dummy p {
     font-size: 14px;
     font-weight: 400;
     color: grey;
 }
 
 /*trending*/
-.trending h2{
+.trending h2 {
     text-align: center;
     padding: 20px 0;
     font-size: 35px;
@@ -356,12 +359,13 @@ body {}
     word-spacing: 8px;
     color: var(--firstcolor);
 }
-.trending-upper{
+
+.trending-upper {
     position: relative;
     text-align: center !important;
 }
 
-.trending-upper p{
+.trending-upper p {
     text-align: center;
     left: 0;
     right: 0;
@@ -370,7 +374,7 @@ body {}
     color: #fff;
 }
 
-.trending-down{
+.trending-down {
     padding: 10px 0;
     font-size: 18px;
     word-break: break-all;
@@ -381,32 +385,90 @@ body {}
 }
 
 
+/*store category*/
+.store-p {
+    font-weight: 400;
+    letter-spacing: 2px;
+}
 
+/*application part*/
 
+.app {
+    margin-top: 80px !important;
+    padding: 50px 0;
+    background-color: #CF912E;
+    color: #fff;
+}
 
+/*footer part*/
+footer {
+    padding: 50px 0;
+    background-color: #111;
+}
 
+footer ul {
+    font-size: 18px;
+    list-style: none;
+    color: #fff;
+}
 
+footer ul li.special {
+    text-transform: capitalize;
+    color: #CF912E;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
 
+footer ul li a {
+    transition: .3s all;
+    display: list-item;
+    color: #fff;
+    padding: 10px 0;
+}
 
+footer ul li a:hover {
+    text-decoration: none;
+    color: grey;
+    transition: .3s all;
+}
 
+footer ul li.social-media {
+    height: 50px;
+    width: 50px;
+    display: inline-block !important;
+}
 
+footer ul li.social-media a {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
 
+footer ul li.social-media a.facebook:hover {
+    background-color: #3A559F;
+    color: #fff;
+    border: 1px solid #3A559F;
+}
 
+footer ul li.social-media a.twitter:hover {
+    background-color: #55ACEE;
+    color: #fff;
+    border: 1px solid #55ACEE;
+}
 
+footer ul li.social-media a.linkeedin:hover {
+    background-color: #0077AF;
+    color: #fff;
+    border: 1px solid #0077AF;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer ul li.social-media a.googleplus:hover {
+    background-color: #DC4E41;
+    color: #fff;
+    border: 1px solid #DC4E41;
+}
